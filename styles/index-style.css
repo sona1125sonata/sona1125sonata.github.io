@@ -1,3 +1,4 @@
+@charset "utf-8";
 body {
     margin: 0;
     padding: 0;
@@ -15,15 +16,52 @@ body {
     position: relative;
 }
 
+p {
+    margin: 0;
+}
+
+
+/* profile */
+
+.profile-container {
+    width: 100%;
+}
+
+.profile-container ul {
+    padding: 5 5 5 5;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 70px;
+}
+
 .profile-image {
     width: 400px;
     display: block;
     margin: auto;
 }
 
-p {
-    margin: 0;
+.profile-item {
+    display: block;
+    position: relative;
+    margin: 5px 5px 5px 5px;
+    width: 60px;
+    height: 40px;
 }
+
+.profile-item-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile-item-text {
+    text-align: center;
+}
+
+
+/* 明日ちゃん */
 
 .link-text {
     display: block;
@@ -38,6 +76,13 @@ p {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+}
+
+.news-box {}
+
+.news-box-title {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .news-para {
