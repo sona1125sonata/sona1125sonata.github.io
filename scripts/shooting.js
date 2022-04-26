@@ -1,5 +1,22 @@
+class bullet {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+}
+
+const body = document.getElementById("body");
+const bullet_parent = document.getElementById("bullets");
+
+function InstantiateBullet() {
+    let div_element = document.createElement("div");
+    div_element.textContent = "bullet";
+
+    bullets.appendChild(div_element);
+}
+
 function OnClick() {
-    // console.log("Clicked.");
+    InstantiateBullet();
 }
 
 window.onload = () => {

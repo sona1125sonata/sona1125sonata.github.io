@@ -16,10 +16,6 @@ body {
     position: relative;
 }
 
-p {
-    margin: 0;
-}
-
 
 /* profile */
 
@@ -39,8 +35,6 @@ p {
 
 .profile-image {
     width: 400px;
-    display: block;
-    margin: auto;
 }
 
 .profile-item {
@@ -79,7 +73,7 @@ p {
 }
 
 .news-box {
-    margin: 1rem 0 1rem 0;
+    margin: 0rem 0 0rem 0;
     background-color: #FCF4F9
 }
 
@@ -91,10 +85,10 @@ p {
 }
 
 .news-para {
-    margin: 1rem 0 0 1rem;
+    margin: 1rem 0 1rem 1rem;
 }
 
-.news-text {
-    margin-left: 2rem;
+.news-indent-text {
+    margin: 0 0 0 1rem;
     text-indent: -1rem;
 }
