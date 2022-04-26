@@ -4,14 +4,14 @@ body {
     padding: 0;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0F0;
+    background-color: #F0F0F0;
 }
 
 #wrapper {
     width: 800px;
     margin: 0 auto 0 auto;
     padding: 0;
-    background-color: white;
+    background-color: #FDFEFF;
     /*border-top: 1px solid #0096FF;*/
     position: relative;
 }
@@ -64,32 +64,37 @@ p {
 /* 明日ちゃん */
 
 .link-text {
-    display: block;
     margin: auto;
 }
 
 .akebi-container {
-    margin: 1rem 1rem 1rem 4rem;
+    margin: 1rem 4rem 1rem 4rem;
 }
 
 .news-title {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    margin: 1rem 0 1rem 0;
 }
 
-.news-box {}
+.news-box {
+    margin: 1rem 0 1rem 0;
+    background-color: #FCF4F9
+}
 
 .news-box-title {
     font-weight: bold;
     font-size: 18px;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
 }
 
 .news-para {
-    margin-top: 1rem;
+    margin: 1rem 0 0 1rem;
 }
 
 .news-text {
-    margin-left: 1rem;
+    margin-left: 2rem;
     text-indent: -1rem;
 }
