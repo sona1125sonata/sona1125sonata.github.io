@@ -1,5 +1,22 @@
+class bullet {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+}
+
+const body = document.getElementById("body");
+const bullet_parent = document.getElementById("bullets");
+
+function InstantiateBullet() {
+    let div_element = document.createElement("div");
+    div_element.textContent = "bullet";
+
+    bullets.appendChild(div_element);
+}
+
 function OnClick() {
-    // console.log("Clicked.");
+    // InstantiateBullet();
 }
 
 window.onload = () => {
@@ -9,7 +26,7 @@ window.onload = () => {
         // 座標を取得
         let mouseX = e.pageX;
         let mouseY = e.pageY;
-        // ページ先頭を起点、screen, client(ブラウザ表示エリア), offcet(HTML要素)がある
+        // ページ先頭を起点(page)、screen(端末画面), client(ブラウザ表示エリア), offcet(HTML要素)がある
 
         // Console出力
         // console.log("MousePosition(" + mouseX + "," + mouseY + ")");
